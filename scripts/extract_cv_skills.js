@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable */
 import fs from 'node:fs';
 import path from 'node:path';
 import * as pdfParsePkg from 'pdf-parse';

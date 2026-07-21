@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
+  base: '/Nesma_abdElfatah/', // غيري portfolio لاسم الريبو عندك
+
   plugins: [react(), tailwindcss()],
+
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -21,6 +24,7 @@ export default defineConfig({
       }
     }
   },
+
   preview: {
     port: 3000,
     open: true

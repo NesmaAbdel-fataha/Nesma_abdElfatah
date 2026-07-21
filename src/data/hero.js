@@ -1,47 +1,34 @@
 export const heroData = {
-  greeting: "👋 Hello, I'm",
-  name: "Nesma Abdel Fattah",
-
-roles: [
-  "Full Stack Developer",
-  "React Developer",
-  "Next.js Developer",
-  "Node.js Developer",
-],
-
-  description:
-    "Crafting exceptional digital experiences with modern technologies and building beautiful, functional, and user-friendly web applications that make an impact.",
-
-  stats: [
-    {
-      number: "2+",
-      label: "Years Experience",
-    },
-    {
-      number: "20+",
-      label: "Projects Completed",
-    },
-    {
-      number: "100%",
-      label: "Client Satisfaction",
-    },
+  greeting: 'Building thoughtful products for modern teams',
+  name: 'Nesma Abdel Fattah',
+  roles: [
+    'Full Stack MERN Developer',
+    'React & Node.js Engineer',
+    'AI-Enabled Product Builder',
   ],
-
+  description:
+    'I design and build scalable web applications with strong frontend craftsmanship, reliable backend architecture, and practical AI integration for real-world products.',
+  stats: [
+    { number: '3+', label: 'Years building products' },
+    { number: '20+', label: 'Projects shipped' },
+    { number: '100%', label: 'Focus on impact' },
+  ],
+  highlights: ['MERN stack delivery', 'AI integrations', 'Secure and multilingual systems'],
   socialLinks: [
     {
-      name: "GitHub",
-      url: "https://github.com/NesmaAbdel-fataha",
-      icon: "Github",
+      name: 'GitHub',
+      url: 'https://github.com/NesmaAbdel-fataha',
+      icon: 'Github',
     },
     {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/nesma-abd-elftah-933a092a5/",
-      icon: "Linkedin",
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/nesma-abd-elftah-933a092a5/',
+      icon: 'Linkedin',
     },
     {
-      name: "Gmail",
-      url: "nesma1amer@gmail.com",
-      icon: "Mail",
+      name: 'Email',
+      url: 'nesma1amer@gmail.com',
+      icon: 'Mail',
     },
   ],
 };
