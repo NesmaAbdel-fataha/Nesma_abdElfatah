@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Nesma_abdElfatah/', // غيري portfolio لاسم الريبو عندك
+  base: '/', 
 
   plugins: [react(), tailwindcss()],
 
